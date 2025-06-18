@@ -1,0 +1,13 @@
+../Core/Src/TM1637.c:56:6:Delay_us	3
+../Core/Src/TM1637.c:67:6:start	1
+../Core/Src/TM1637.c:76:6:stop	1
+../Core/Src/TM1637.c:87:6:waitforAck	1
+../Core/Src/TM1637.c:104:6:TM1637_SetBrightness	1
+../Core/Src/TM1637.c:110:6:writeByte	3
+../Core/Src/TM1637.c:133:16:find_segments_for_char	3
+../Core/Src/TM1637.c:149:6:TM1637_WriteData	2
+../Core/Src/TM1637.c:174:6:TM1637_Init	1
+../Core/Src/TM1637.c:181:6:TM1637_Clear	1
+../Core/Src/TM1637.c:195:6:TM1637_DisplaySegments	1
+../Core/Src/TM1637.c:216:6:TM1637_DisplayChar	3
+../Core/Src/TM1637.c:229:6:TM1637_DisplayString	3

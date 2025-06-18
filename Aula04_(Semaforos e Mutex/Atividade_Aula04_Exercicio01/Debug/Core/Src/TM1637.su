@@ -1,0 +1,13 @@
+../Core/Src/TM1637.c:56:6:Delay_us	24	static,ignoring_inline_asm
+../Core/Src/TM1637.c:67:6:start	8	static
+../Core/Src/TM1637.c:76:6:stop	8	static
+../Core/Src/TM1637.c:87:6:waitforAck	8	static
+../Core/Src/TM1637.c:104:6:TM1637_SetBrightness	16	static
+../Core/Src/TM1637.c:110:6:writeByte	24	static
+../Core/Src/TM1637.c:133:16:find_segments_for_char	24	static
+../Core/Src/TM1637.c:149:6:TM1637_WriteData	32	static
+../Core/Src/TM1637.c:174:6:TM1637_Init	8	static
+../Core/Src/TM1637.c:181:6:TM1637_Clear	16	static
+../Core/Src/TM1637.c:195:6:TM1637_DisplaySegments	16	static
+../Core/Src/TM1637.c:216:6:TM1637_DisplayChar	24	static
+../Core/Src/TM1637.c:229:6:TM1637_DisplayString	24	static

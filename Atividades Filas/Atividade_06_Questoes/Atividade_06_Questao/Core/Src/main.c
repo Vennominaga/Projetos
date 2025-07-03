@@ -79,7 +79,6 @@ const osSemaphoreAttr_t semAverage_attributes = {
   .name = "semAverage"
 };
 /* USER CODE BEGIN PV */
-double ADC_BUFFER[TAM_BUFFER]= {0};
 double AverageFinal = 0;
 
 /* USER CODE END PV */
@@ -425,7 +424,7 @@ void StartTask01(void *argument)
 			  if(HAL_ADC_PollForConversion(&hadc1, 10) == HAL_OK)
 			  {
 				  adc_value = HAL_ADC_GetValue(&hadc1);
-				  /*ADC_BUFFER[j] = map(adc_value,0,4095,0,3.3);*/
+				  
 				  voltage_value = map(adc_value,0,4095,0,3.3);
 				  osMessageQueuePut(BufferADCHandle,&voltage_value ,0,osWaitForever);
 			  }
@@ -468,7 +467,7 @@ void StartTask02(void *argument)
 
 	  for(uint8_t i =0; i<TAM_BUFFER;i++)
 	  {
-		  /*sum+=ADC_BUFFER[i];*/
+		  
 		  osMessageQueueGet(BufferADCHandle,&voltage_value,NULL,osWaitForever);
 		  sum+=voltage_value;
 

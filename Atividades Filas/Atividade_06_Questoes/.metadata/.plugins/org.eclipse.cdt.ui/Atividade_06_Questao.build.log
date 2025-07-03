@@ -1,0 +1,10 @@
+09:12:30 **** Incremental Build of configuration Debug for project Atividade_06_Questao ****
+make -j32 all 
+arm-none-eabi-size  Atividade_06_Questao.elf 
+   text	   data	    bss	    dec	    hex	filename
+  44084	    472	  21072	  65628	  1005c	Atividade_06_Questao.elf
+Finished building: default.size.stdout
+ 
+
+09:12:30 Build Finished. 0 errors, 0 warnings. (took 249ms)
+
